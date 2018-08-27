@@ -1,0 +1,98 @@
+/*Global*/
+
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+/*App bar*/
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/*Channels list*/
+
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+/*Tab bar*/
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+
+/*styles for chat area*/
+
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+strong, button {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+/*Messages*/
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+    width: 80%;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+.message{
+    width: 80%;
+    margin-bottom: 8px;
+    font-size: medium;
+    background-color: white;
+    padding: 16px;
+}
+.message button{
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+.message p{
+    font-size: larger;
+    font-style: normal;
+}
