@@ -56,6 +56,7 @@ button {
 p {
     /* #2 #colorful #channelandchat */
     background-color: white;
+    padding: 16px;
 }
 
 strong, button {
@@ -86,6 +87,8 @@ a {
     font-size: medium;
     background-color: white;
     padding: 16px;
+    margin-left: 2.5%;
+    margin-top: 8px;
 }
 .message button{
     background-color: #CDDC39;
@@ -95,4 +98,7 @@ a {
 .message p{
     font-size: larger;
     font-style: normal;
+}
+#main.message{
+    margin-left: 17.5%;
 }
